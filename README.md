@@ -9,7 +9,7 @@
 
 3. Make a diagram to showcase the data transfer process in API communication.
 
-- Done 
+- ![What is this](img/what_is_api.png)
 
 4. What is a REST API? 
 
@@ -32,6 +32,12 @@ Layered systenm architecture, Code on demand
 
 9. What is statelessness?
 
+- As per the REST (REpresentational “State” Transfer) architecture, the server does not store any state about the client session on the server-side. This restriction is called Statelessness.
+
+Each request from the client to the server must contain all of the necessary information to understand the request. The server cannot take advantage of any stored context on the server.
+
 10. What is caching?
+
+-  is the ability to store copies of frequently accessed data in several places along the request-response path.
 
 11. Optional bonus: What is Postman? Sign up and try it out.
